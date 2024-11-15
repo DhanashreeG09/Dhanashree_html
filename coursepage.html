@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Sidebar</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <ul>
+      <li><a href="#tab1" class="sidebar-link"><img src="/assets/images/pr icon.png" alt="Programming" class="icon">Programming</a></li>
+      <li><a href="#tab2" class="sidebar-link"><img src="/assets/images/ds icon.png" alt="Data Science" class="icon">Data Science</a></li>
+      <li>
+        <a href="#" class="sidebar-link"><img src="/assets/images/web dev.png" alt="Web Development" class="icon">Web Development</a>
+        <!-- Submenu -->
+        <ul class="submenu">
+          <li><a href="#tab3" class="sidebar-link"><img src="/assets/images/front end.png" alt="Frontend Development" class="icon">Frontend</a></li>
+          <li><a href="#tab4" class="sidebar-link"><img src="/assets/images/back end.png" alt="Backend Development" class="icon">Backend</a></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- Content sections -->
+  <div id="tab1" class="tab-content">
+    <h2>Programming</h2>
+    <p>Content for Programming...</p>
+  </div>
+  <div id="tab2" class="tab-content">
+    <h2>Data Science</h2>
+    <p>Content for Data Science...</p>
+  </div>
+  <div id="tab3" class="tab-content">
+    <h2>Frontend Web Development</h2>
+    <p>Content for Frontend...</p>
+  </div>
+  <div id="tab4" class="tab-content">
+    <h2>Backend Web Development</h2>
+    <p>Content for Backend...</p>
+  </div>
+
+</body>
+<script src="/assets/script.js"></script>
+</html>
